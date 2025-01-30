@@ -1,0 +1,29 @@
+A new player is shaking up the AI landscape. DeepSeek, a China-based AI company, released an open version of its R1 reasoning model on January 20, 2025, and it's already making waves. The model reportedly matches or even surpasses OpenAI's O1 on certain AI benchmarks while using far less computing resources. This has sparked a frenzy of discussion across the tech world. Within days, the DeepSeek app soared to the #1 spot on the App Store, surpassing ChatGPT and underscoring the growing rivalry between Chinese and American tech giants in the race for AI dominance. 
+
+Prominent venture capitalist Marc Andreessen was one of those impressed by the feat, writing on X that DeepSeek's model was "one of the most amazing and impressive breakthroughs I've ever seen."
+
+DeepSeek's accomplishment is particularly noteworthy given the company's claim to have trained a model with 671 billion parameters using just 2,048 Nvidia H800s and $5.6 million, a fraction of the resources typically required by industry giants like OpenAI and Google. This cost-effectiveness is even more remarkable considering the U.S. sanctions that restrict the sale of advanced chips to Chinese companies.
+
+Commentators said that for these reasons, the model also has geopolitical implications. "The impressive performance of DeepSeek's distilled models [...] means that very capable reasoners will continue to proliferate widely and be runnable on local hardware, far from the eyes of any top-down control regime," Dean Ball, an AI researcher at George Mason University, wrote.
+
+Some observers believe that DeepSeek's success could potentially benefit the entire AI industry. "If training models get cheaper faster and easier, the demand for inference (actual real world use of AI) will grow and accelerate even faster, which assures the supply of compute will be used," Garry Tan, CEO of Y Combinator, wrote on X.
+
+However, not all reactions have been uniformly positive. Neal Khosla, CEO of Curai, expressed skepticism, suggesting that the company might be a "ccp state psyop" aimed at undermining U.S. AI competitiveness. However, this claim has been challenged for lack of evidence.
+
+DeepSeek-R1 is a reasoning model that employs a step-by-step approach to problem-solving, making it particularly adept at tasks in physics, science, and mathematics. The model contains 671 billion parameters, which contribute to its problem-solving capabilities.
+
+DeepSeek has also released smaller "distilled" versions of R1, ranging from 1.5 billion to 70 billion parameters, with the smallest capable of running on a laptop.
+
+R1 is available under an MIT license, allowing for commercial use without restrictions. According to DeepSeek, the model outperforms OpenAI's o1 on benchmarks such as AIME, MATH-500, and SWE-bench Verified. These assess various aspects of AI performance, including mathematical problem-solving and programming tasks.
+
+One notable limitation of R1 is its adherence to Chinese regulatory requirements. As a Chinese model, it's subject to benchmarking by China's internet regulator to ensure compliance with "core socialist values." Consequently, R1 refrains from answering questions about sensitive topics such as Tiananmen Square or Taiwan's autonomy.
+
+Despite these constraints, DeepSeek's achievement has sparked significant interest. As of Sunday afternoon, DeepSeek's AI assistant has become the top free app in the Apple App Store, surpassing even ChatGPT.
+
+The success of DeepSeek has catapulted its creator Liang Wenfeng into the national spotlight. Recently, he was the sole AI industry representative invited to a high-profile meeting with Li Qiang, China's Premier and second-most powerful leader.
+
+Liang, a Chinese entrepreneur and hedge fund manager, began his journey to AI prominence in the world of quantitative finance. In 2015, Liang founded High-Flyer, a quantitative hedge fund that quickly rose to one of China's "Big Four" quantitative private funds. Under Liang's leadership, High-Flyer pioneered the integration of AI-driven strategies in quantitative investment, transitioning to a fully AI-based approach by 2017.
+
+Liang's foray into AI development began in earnest in 2021 when he started acquiring thousands of Nvidia GPUs for what was initially perceived as an eccentric side project. This prescient move laid the groundwork for DeepSeek, which Liang founded in 2023 with the ambitious goal of developing human-level AI.
+
+Liang's unconventional background has proven to be a unique advantage in the AI field. His team's experience in utilizing Nvidia chips for stock trading has translated well into the challenges posed by U.S. export restrictions on advanced AI chips to China. This adaptability has allowed DeepSeek to innovate in the face of limited access to cutting-edge hardware.
