@@ -1,4 +1,5 @@
 import sys
+
 import whisper
 
 model = whisper.load_model("tiny.en")

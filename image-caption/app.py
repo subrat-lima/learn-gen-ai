@@ -1,6 +1,7 @@
 import gradio as gr
-from caption import generate_caption
 from PIL import Image
+
+from caption import generate_caption
 
 
 def caption_image(image):

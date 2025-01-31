@@ -1,6 +1,7 @@
 import os
-import chromadb
+from uuid import uuid4
 
+import chromadb
 from dotenv import load_dotenv
 from langchain import hub
 from langchain_chroma import Chroma
@@ -12,7 +13,6 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_groq import ChatGroq
 from langchain_ollama import OllamaEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from uuid import uuid4
 
 load_dotenv()
 set_llm_cache(SQLiteCache(database_path="langchain.db"))
@@ -44,6 +44,7 @@ def add_document_embeddings(filename):
     vector_store.add_documents(documents=documents, ids=uuids)
     print(f"{filename} embeddings added")
 
+
 def generate_answer(question):
     data = vector_store.similarity_search(question)
     docs_content = "\n\n".join(entry.page_content for entry in data)
@@ -56,7 +57,7 @@ if __name__ == "__main__":
     add_document_embeddings("../langchain-basics/article.txt")
     while True:
         question = input("question: ")
-        if question in ['q', 'bye', 'quit', 'exit']:
+        if question in ["q", "bye", "quit", "exit"]:
             print("thank you")
             break
         generate_answer(question)
