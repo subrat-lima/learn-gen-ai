@@ -1,4 +1,2 @@
 # learn-gen-ai
-
-# projects
-* image caption
+simple code snippets to learn gen-ai
